@@ -3,7 +3,7 @@
 o	releasebase/domainxx/version 
 •	On all servers 
 o	cos/releases/domainXX/version 
-o	cos/config/Cosxx – softlink needs to be removed. 
+o	cos/config/Cosxx – softlink needs to be removed. ----major(no need)
 
 
 
