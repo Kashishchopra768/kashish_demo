@@ -1,0 +1,34 @@
+	Clean up the last build. 
+•	On primary server 
+o	releasebase/domainxx/version 
+•	On all servers 
+o	cos/releases/domainXX/version 
+o	cos/config/Cosxx – softlink needs to be removed. 
+
+
+
+
+
+sudo 
+
+ls -l
+releasebase  ------domain_CosXX ------ release_73.1.126
+cos  ---- releases/domain_CosXX-----current_release -> release_73.2.8
+deployer
+
+cd deployer
+ls -l
+
+config
+release
+releasebase
+
+cd release
+ls -l
+rollback
+ls -l
+versionCleanup.sh
+cd ..
+cd ..
+cd releasebase
+tars are there
